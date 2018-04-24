@@ -1,0 +1,184 @@
+<!doctype html>
+<html ⚡>
+  <head>
+    <meta charset="utf-8">
+    <title>About of Art</title>
+    <link rel="canonical" href="art.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
+
+    <script async custom-element="amp-audio" src="https://cdn.ampproject.org/v0/amp-audio-0.1.js"></script>
+    <script async custom-element="amp-video"
+        src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+    <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-0.1.js"></script>
+
+    <style amp-custom>
+      amp-story {
+        font-family: 'Oswald',sans-serif;
+        color: #fff;
+      }
+      amp-story-page {
+        background-color: #000;
+      }
+      h1 {
+        font-weight: bold;
+        font-size: 2.875em;
+        font-weight: normal;
+        line-height: 1.174;
+      }
+      p {
+        font-weight: normal;
+        font-size: 1.3em;
+        line-height: 1.5em;
+        color: #fff;
+      }
+      q {
+        font-weight: 300;
+        font-size: 1.1em;
+      }
+      amp-story-grid-layer.bottom {
+        align-content:end;
+      }
+      amp-story-grid-layer.noedge {
+        padding: 0px;
+      }
+      amp-story-grid-layer.center-text {
+        align-content: center;
+      }
+      .wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+      }
+      .banner-text {
+        text-align: center;
+        background-color: #000;
+        line-height: 2em;
+      }
+    </style>
+  </head>
+  <body>
+      <amp-story standalone
+         bookend-config-src="bookend.json">
+        <amp-story-page id="cover">
+          <amp-story-grid-layer template="fill">
+              <amp-img src="assets/cover.jpg"
+                width="720" height="1280"
+                layout="responsive">
+              </amp-img>
+          </amp-story-grid-layer>
+          <amp-story-grid-layer template="vertical">
+            <h1>About of Art</h1>
+            <p>amp-story</p>
+          </amp-story-grid-layer>
+        </amp-story-page>
+
+        <amp-story-page id="page1">
+            <amp-story-grid-layer template="vertical">
+              <h1>Monet</h1>
+              <amp-img src="assets/monet.jpg"
+                width="720" height="1280"
+                layout="responsive">
+            </amp-img>
+            <q>Most well-known today for his series of serene water lilies paintings, 
+              19th century Impressionist Claude Monet was a groundbreaking tour de force in the development of expressive art.</q>
+            </amp-story-grid-layer>
+        </amp-story-page>
+
+        <amp-story-page id="page2">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="assets/collage.jpg"
+                   width="720" height="1280"
+                   layout="responsive">
+                </amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="thirds">
+              <h1 grid-area="upper-third">Collage</h1> 
+              <p grid-area="lower-third"> Collage is a technique of an art production, primarily used in the visual arts, 
+                where the artwork is made from an assemblage of different forms, thus creating a new whole</p>
+            </amp-story-grid-layer>
+        </amp-story-page>
+
+        <amp-story-page id="page3" background-audio="https://www.bird-sounds.net/sounds/alder-flycatcher.mp3">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="assets/tree.jpg"
+                   width="720" height="1280"
+                   layout="responsive">
+                </amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical">
+              <h1>Nature</h1> 
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="bottom">
+              <q>Nature in art can take many forms. Read this in-depth exploration of nature art - 
+                such as what inspires artists to create nature-themed artwork, as well as the various ways they go about it.</q>
+              <!--<amp-audio width="auto"
+                height="50"
+                src="https://www.bird-sounds.net/sounds/alder-flycatcher.mp3"
+                controlsList="nodownload">
+              </amp-audio>-->
+            </amp-story-grid-layer>
+        </amp-story-page>
+
+        <amp-story-page id="page4">
+          <amp-story-grid-layer template="vertical">
+            <amp-youtube
+               data-videoid="Fg-yNMXLWFo"
+               width="720" height="1280"
+               layout="responsive">
+              </amp-youtube>
+              <!--<amp-video autoplay loop
+                 src="assets/rabbit.mp4"
+                 poster="assets/rabbit.jpg"
+                 width="720" height="1280"
+                 layout="responsive">
+              </amp-img>
+          </amp-story-grid-layer>
+          <amp-story-grid-layer template="vertical">
+            <h1>Rabbits</h1> 
+          </amp-story-grid-layer>
+          <amp-story-grid-layer template="vertical" class="bottom">
+            <q>Rabbits can learn to follow simple voice commands and come when called by name, and are curious and playful.</q>
+          </amp-story-grid-layer>-->
+      </amp-story-page>
+
+      <amp-story-page id="page5">
+        <amp-story-grid-layer template="vertical" class="noedge">
+          <div class="wrapper">
+            <amp-img src="assets/monet.jpg"
+              width="720" height=1280
+              layout="responsive"
+              animate-in="fade-in"
+              animate-in-delay="0.4s">
+            </amp-img>
+            <amp-img src="assets/collage.jpg"
+              width="720" height=1280
+              layout="responsive"
+              animate-in="fade-in"
+              animate-in-delay="0.4s">
+            </amp-img>
+            <amp-img src="assets/tree.jpg"
+              width="720" height=1280
+              layout="responsive"
+              animate-in="fade-in"
+              animate-in-delay="0.4s">
+            </amp-img>
+            <amp-img src="assets/dance.jpg"
+              width="720" height=1280
+              layout="responsive"
+              animate-in="fade-in"
+              animate-in-delay="0.4s">
+            </amp-img>
+          </div>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="center-text">
+          <p class="banner-text" animate-in="whoosh-in-right">Art intended to be appreciated for their beauty or emotional power!</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      </amp-story>
+  </body>
+</html>
