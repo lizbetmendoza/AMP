@@ -21,18 +21,20 @@ The page display something like this:  https://i.imgur.com/Fdbrk4M.png
           </amp-story-grid-layer>
         </amp-story-page>
 ```
+![cover](../master/img/page1.jpg)
 
 ### Page1 - layout="vertical"
 The template for this page changed to template="vertical" and display in this page an image and text in a single layer 
-
 https://imgur.com/lBJxPyd
-      
+![page1](../master/img/page2.jpg)  
+
 ### page3 - background-audio
 Added song whit this new attribute, just for this specific page,  https://imgur.com/ZmCNe2I
 ```
    <amp-story-page id="page3" background-audio="https://www.bird-sounds.net/sounds/alder-flycatcher.mp3">
 ```
-        
+![page3](../master/img/page3.jpg)  
+
 ### page4
 Add video component (youtube) with some controls to play, pause...  https://imgur.com/jUmGTOv
  ```
@@ -42,14 +44,14 @@ Add video component (youtube) with some controls to play, pause...  https://imgu
   layout="responsive">
    </amp-youtube>
  ```
-           
+![page4](../master/img/page4.jpg)       ![page4a](../master/img/page4a.jpg)             
 ### page5 
 Applying animation to elements inside a page. https://imgur.com/3Dmp7r0
  ```
            animate-in="fade-in"
            animate-in-delay="0.4s">
  ```
-
+![page5](../master/img/page5.jpg)  
      
 ### page6 - bookend
 Adding bookend wraps the up the story and allows you to provide social sharing and related links to your story.
@@ -58,5 +60,5 @@ The JSON file, is used to to show information from this file, add "bookend-confi
    <amp-story standalone
    bookend-config-src="bookend.json">    
 ```
-  
+![page6](../master/img/page6.jpg)    
            
